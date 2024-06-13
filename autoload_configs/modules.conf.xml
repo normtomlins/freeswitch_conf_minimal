@@ -14,8 +14,8 @@
 
     <!-- XML Interfaces -->
     <!-- <load module="mod_xml_rpc"/> -->
-    <!-- <load module="mod_xml_curl"/> -->
-    <!-- <load module="mod_xml_cdr"/> -->
+    <load module="mod_xml_curl"/>
+    <<load module="mod_xml_cdr"/>
     <!-- <load module="mod_xml_scgi"/> -->
 
     <!-- Event Handlers -->
@@ -48,20 +48,21 @@
     <!-- Applications -->
     <load module="mod_commands"/>
     <load module="mod_conference"/>
-    <!-- load module="mod_curl" -->
+    <load module="mod_curl" />
     <load module="mod_db"/>
     <load module="mod_dptools"/>
     <load module="mod_expr"/>
-    <!-- <load module="mod_fifo"/> -->
+    <load module="mod_fifo"/>
     <load module="mod_hash"/>
-    <!-- <load module="mod_voicemail"/> -->
+    <load module="mod_voicemail"/>
+    <load module="mod_voicemail_ivr"/>
     <!--<load module="mod_directory"/>-->
     <!--<load module="mod_distributor"/>-->
     <!--<load module="mod_lcr"/>-->
     <!--<load module="mod_esf"/>-->
     <!--<load module="mod_fsv"/>-->
     <!--<load module="mod_cluechoo"/>-->
-    <!--<load module="mod_valet_parking"/>-->
+    <load module="mod_valet_parking"/>
     <!--<load module="mod_fsk"/>-->
     <!--<load module="mod_spy"/>-->
     <!--<load module="mod_random"/>-->
@@ -74,7 +75,7 @@
     <!--<load module="mod_ladspa"/>-->
 
     <!-- Dialplan Interfaces -->
-    <!-- <load module="mod_dialplan_directory"/> -->
+    <load module="mod_dialplan_directory"/>
     <load module="mod_dialplan_xml"/>
     <!-- <load module="mod_dialplan_asterisk"/> -->
 
