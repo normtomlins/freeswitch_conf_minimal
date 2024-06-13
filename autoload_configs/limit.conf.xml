@@ -1,0 +1,5 @@
+<configuration name="limit.conf" description="LIMIT Configuration">
+  <settings>
+   <param name="odbc-dsn" value="mariadb://Server=$${db_server};Port=$${db_port};Database=freeswitch;Uid=$${odbc_username};Pwd=$${odbc_password}"/>
+  </settings>
+</configuration>
